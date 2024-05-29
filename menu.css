@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: 0;
+  padding: 0;
+}
+body {
+  margin: 0.5rem;
+  text-align: center;
+}
+nav {
+  border: 2px solid black;
+  border-radius: 2rem;
+  max-width: 600px;
+  margin: 0 auto 1rem;
+  font-size: 2rem;
+  line-height: 7rem;
+}
+h1 {
+  background-color: gold;
+  padding: 1rem;
+  border-radius: 2rem 2rem 0 0;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  border-top: 1px solid black;
+}
+li a {
+  display: block;
+}
+li a:hover,
+li a:focus {
+  background-color: black;
+  color: whitesmoke;
+  cursor: pointer;
+}
+li:last-child a {
+  border-radius: 0 0 2rem 2rem;
+}
